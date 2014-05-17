@@ -1,6 +1,6 @@
 {
   "name": "github-timeline-stream",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/GithubTimelineStream.js",
   "description": "Github timeline data exposed as a node.js stream",
   "homepage": "http://github.com/arscan/github-timeline-stream",
