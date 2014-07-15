@@ -37,12 +37,12 @@ suite('Stream Test', function(){
 
         gth.on('data', function(data){
             count++;
-            if(ids[data.url]){
+            if(ids[data.id]){
                 done("Found duplicate item!");
             }
-            console.log(data.url);
+            console.log(data.id);
 
-            ids[data.url] = true;
+            ids[data.id] = true;
             if(count > 30 && !finished){
                 finished = true;
                 done();
