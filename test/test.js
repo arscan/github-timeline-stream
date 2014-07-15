@@ -40,7 +40,6 @@ suite('Stream Test', function(){
             if(ids[data.id]){
                 done("Found duplicate item!");
             }
-            console.log(data.id);
 
             ids[data.id] = true;
             if(count > 30 && !finished){
